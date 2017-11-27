@@ -6195,15 +6195,8 @@ set_kansuji_char: print_esc("kansujichar");
 
 @ @<Assignments@>=
 set_kansuji_char:
-begin p:=cur_chr; scan_int; n:=cur_val; scan_optional_equals; scan_int;
-if not is_char_kanji(cur_val) then
-  begin print_err("Invalid KANSUJI char (");
-  print_hex(cur_val); print_char(")");
-@.Invalid KANSUJI char@>
-  help1("I'm skipping this control sequences.");@/
-  error; return;
-  end
-else if (n<0)or(n>9) then
+begin p:=cur_chr; scan_int; n:=cur_val; scan_optional_equals; scan_char_num;
+if (n<0)or(n>9) then
   begin print_err("Invalid KANSUJI number ("); print_int(n); print_char(")");
 @.Invalid KANSUJI number@>
   help1("I'm skipping this control sequences.");@/

@@ -1,0 +1,67 @@
+This is e-upTeX, Version 3.14159265-p3.7.2-u1.22-170924-2.6 (utf8.uptex) (TeX Live 2018/dev) (preloaded format=euptex 2017.11.29)  29 NOV 2017 06:48
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**control-symbol.tex
+(./control-symbol.tex
+> \X=macro:
+->\+.
+l.16 \show\X
+            \relax\message{(\meaning\X)}
+? 
+(macro:->\+)
+> \Y=macro:
+->\＋.
+l.17 \show\Y
+            \relax\message{(\meaning\Y)}
+? 
+(macro:->\＋)
+> \X=macro:
+->\+ .
+l.27 \show\X
+            \relax\message{(\meaning\X)}
+? 
+(macro:->\+ )
+> \Y=macro:
+->\＋ .
+l.28 \show\Y
+            \relax\message{(\meaning\Y)}
+? 
+(macro:->\＋ )
+> \X=macro:
+->\ABC .
+l.35 \show\X
+            \relax\message{(\meaning\X)}
+? 
+(macro:->\ABC )
+> \Y=macro:
+->\あいう .
+l.36 \show\Y
+            \relax\message{(\meaning\Y)}
+? 
+(macro:->\あいう )
+> \X=macro:
+->\:AB .
+l.48 \show\X
+            \relax\message{(\meaning\X)}
+? 
+(macro:->\:AB )
+> \Y=macro:
+->\！あい .
+l.49 \show\Y
+            \relax\message{(\meaning\Y)}
+? 
+(macro:->\！あい )
+> \X=macro:
+->\AB: .
+l.55 \show\X
+            \relax\message{(\meaning\X)}
+? 
+(macro:->\AB: )
+> \Y=macro:
+->\あい！ .
+l.56 \show\Y
+            \relax\message{(\meaning\Y)}
+? 
+(macro:->\あい！ ) )
+No pages of output.

@@ -1045,6 +1045,16 @@ libc_free(format_engine);
 undump_kanji(fmt_file);
 @z
 
+
+@x kansuji
+	if is_char_ascii(cx) then print_char(cx)
+	else print_kanji(fromDVI(cx));
+@y
+	if is_char_ascii(cx) and kcat_code(kcatcodekey(cx))=not_cjk then print_char(cx)
+	else print_kanji(fromDVI(cx));
+@z
+
+
 @x
 @d set_auto_xspacing_code=3
 @y
